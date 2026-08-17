@@ -1,11 +1,17 @@
 # my-sway-noctalia-shell-dots
 
-# ok first you have to clone the repo in where ever you want (i.e Downloads) by running (ensure you have git installed)
+My personal Sway desktop configuration featuring Noctalia shell, Alacritty, Btop, and Cava.
 
-git clone https://github.com/Christine-oss-web/my-sway-noctalia-shell-dots.git 
+![Rice Preview](01-08-1786745876.png)
 
-# after that copy the dots over to ~/.config by running 
+## Installation
 
+### 1. Clone the repository
+Ensure you have `git` installed, then clone the repository:
+
+```bash
+git clone [https://github.com/Christine-oss-web/my-sway-noctalia-shell-dots.git](https://github.com/Christine-oss-web/my-sway-noctalia-shell-dots.git)
+cd my-sway-noctalia-shell-dots
 cp -r ~/Downloads/alacritty ~/Downloads/btop ~/Downloads/cava ~/Downloads/sway ~/.config 
 
 # then edit the configs to your liking and needs
