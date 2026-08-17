@@ -26,7 +26,7 @@ cp ~/Downloads/config.toml ~/.config
 
 # then delete all the folders and files from the repo that is on your Downloads folder 
 
-# cd ..
+cd ..
 
 rm -rf ~/Downloads/my-sway-noctalia-shell-dots 
 
