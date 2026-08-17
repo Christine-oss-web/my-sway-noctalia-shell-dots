@@ -8,6 +8,8 @@ git clone https://github.com/Christine-oss-web/my-sway-noctalia-shell-dots.git
 
 cp -r ~/Downloads/alacritty ~/Downloads/btop ~/Downloads/cava ~/Downloads/sway ~/.config 
 
+# then edit the configs to your liking and needs
+
 # after that rename noctalia-config.toml to config.toml 
 
 mv ~/Downloads/noctalia-config.toml ~/Downloads/config.toml
