@@ -1,0 +1,254 @@
+[bar]
+order = [ "default", "bar" ]
+
+    [bar.bar]
+    background_opacity = 0.79999998211860657
+    border = "primary"
+    enabled = false
+    position = "bottom"
+    thickness = 42
+
+    [bar.default]
+    background_opacity = 0.57999998703598976
+    border = "secondary"
+    border_width = 1.5
+    capsule_opacity = 0.56999998725950718
+    center = [ "audio_visualizer", "clock" ]
+    color = "primary"
+    contact_shadow = true
+    end = [ "tray", "clipboard", "network", "volume", "control-center", "caffeine", "idk" ]
+    font_family = "DaddyTimeMono Nerd Font Mono"
+    font_weight = 400
+    icon_color = "secondary"
+    margin_edge = 3
+    panel_overlap = 3
+    position = "bottom"
+    radius = 50
+
+[control_center.calendar]
+show_events_card = false
+
+[desktop_widgets]
+schema_version = 2
+widget_order = [
+    "desktop-widget-0000000000000001",
+    "desktop-widget-0000000000000002",
+    "desktop-widget-0000000000000004",
+    "desktop-widget-0000000000000005",
+    "desktop-widget-0000000000000006"
+]
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000001]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 113.0
+    cy = 64.0
+    output = "VGA-1"
+    rotation = 0.0
+    type = "clock"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000001.settings]
+        background_opacity = 0.5
+        clock_style = "digital"
+        color = "primary"
+        font_family = "CommitMono Nerd Font"
+        format = "{:%H:%M}"
+        timezone = "Africa/Cairo"
+
+    [desktop_widgets.widget.desktop-widget-0000000000000002]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 854.0
+    cy = 208.0
+    output = "VGA-1"
+    rotation = 0.0
+    type = "fancy_audio_visualizer"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000002.settings]
+        background = false
+
+    [desktop_widgets.widget.desktop-widget-0000000000000004]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 192.0
+    cy = 650.0
+    output = "VGA-1"
+    rotation = 0.0
+    type = "media_player"
+
+    [desktop_widgets.widget.desktop-widget-0000000000000005]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 882.0
+    cy = 662.0
+    output = "VGA-1"
+    rotation = 0.0
+    type = "audio_visualizer"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000005.settings]
+        bands = 32
+        show_when_idle = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000006]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 400.0
+    cy = 64.0
+    output = "VGA-1"
+    rotation = 0.0
+    type = "label"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000006.settings]
+        background_opacity = 0.5
+        color = "primary"
+        description = "maybe"
+        opacity = 1.0
+        title = "this may be the best linux setup"
+
+[dock]
+background_opacity = 0.669999985024333
+border = "primary"
+border_width = 2.5
+enabled = true
+icon_size = 34
+launcher_custom_image = "/usr/share/icons/win7startorb.png"
+launcher_icon = "brand-windows-filled"
+launcher_position = "start"
+magnification_scale = 1.5500000081956387
+pinned = [ "librewolf", "alacritty", "localsend", "supertux2", "zapzap" ]
+position = "left"
+radius = 0
+show_dots = true
+
+[hot_corners]
+enabled = true
+
+[lockscreen]
+blur_intensity = 0.1099999975413084
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@WL-1", "lockscreen-login-box@VGA-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@VGA-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 512.0
+    cy = 586.0
+    output = "VGA-1"
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@VGA-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@WL-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 640.0
+    cy = 538.0
+    output = "WL-1"
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@WL-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[osd.kinds]
+keyboard_layout = false
+
+[shell]
+avatar_path = "/home/karas/Downloads/rose.png"
+font_family = "DaddyTimeMono Nerd Font Mono"
+panel_anchor_bar = "default"
+
+    [shell.animation]
+    speed = 0.15000000223517418
+
+    [shell.launcher.providers.emoji]
+    global = true
+
+    [shell.panel]
+    floating_layer = "top"
+    transparency_mode = "glass"
+
+    [shell.screenshot]
+    show_cursor = true
+
+[theme]
+builtin = "Rosé Pine"
+community_palette = "ADW"
+mode = "dark"
+source = "builtin"
+
+    [theme.templates]
+    builtin_ids = [ "alacritty", "btop", "cava", "gtk3", "gtk4", "qt", "sway" ]
+
+[wallpaper]
+directory = "/home/karas/Downloads"
+enabled = true
+fill_mode = "strech"
+path = "~/Downloads/idk.jpg"
+
+    [wallpaper.default]
+    path = "/home/karas/Downloads/rose.png"
+
+    [wallpaper.last]
+    path = "/home/karas/Downloads/rose.png"
+
+    [wallpaper.monitors.VGA-1]
+    path = "/home/karas/Downloads/rose.png"
+
+    [[wallpaper.favorite]]
+    builtin_palette = "Rosé Pine"
+    palette_source = "builtin"
+    path = "/home/karas/Downloads/IMG-20260815-WA0006.jpg"
+    theme_mode = "dark"
+
+    [[wallpaper.favorite]]
+    builtin_palette = "Rosé Pine"
+    palette_source = "builtin"
+    path = "/home/karas/Downloads/rose.png"
+    theme_mode = "dark"
+
+[widget.idk]
+custom_image = "/usr/share/icons/win7startorb.png"
+glyph = "librewolf"
+type = "custom_button"

@@ -1,0 +1,24 @@
+[general]
+import = ["~/.config/alacritty/themes/noctalia.toml"]
+
+[window]
+opacity = 0.6
+
+[font]
+size = 11.5
+
+[font.normal]
+family = "DaddyTimeMono Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "DaddyTimeMono Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "DaddyTimeMono Nerd Font Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "DaddyTimeMono Nerd Font Mono"
+style = "Bold Italic"
