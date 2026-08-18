@@ -20,9 +20,12 @@ cp -r /alacritty /btop /cava /sway ~/.config
 
 mv noctalia-config.toml config.toml
 
-# then copy it 
 
-cp config.toml ~/.config
+# then make sure you have a noctalia folder in .config then if you dont make sure you have noctalia installed and if you have noctalia installed but you dont have the create it and name it "noctalia"
+
+# then copy it
+
+cp config.toml ~/.config/noctalia
 
 # then delete all the folders and files from the repo that is on your Downloads folder 
 
