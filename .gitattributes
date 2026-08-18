@@ -1,0 +1,5 @@
+*.frag linguist-documentation=true
+*.vert linguist-documentation=true
+
+*.toml linguist-detectable=true
+*.yml linguist-detectable=true
