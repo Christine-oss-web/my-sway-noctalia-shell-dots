@@ -1,5 +1,3 @@
-*.frag linguist-documentation=true
-*.vert linguist-documentation=true
-
-*.toml linguist-detectable=true
-*.yml linguist-detectable=true
+*.frag linguist-vendored
+*.vert linguist-vendored
+*.glsl linguist-vendored
